@@ -1,0 +1,102 @@
+:root {
+  --mx-width: 1320px;
+  --color-text-body: #d3d3d4;
+  --color-primary: #5956e9;
+  --color-secondary: #d3d3d4;
+  --color-banner: #27272e;
+  --color-text-btn: #fff;
+  --color-bg-btn: #2522ba;
+  --color-subtitle: #c75c6f;
+  --color-title: #d3d3d4;
+  --color-bg-services: #27272e;
+  --color-bg-projects: #292930;
+  --color-bg-dark: #27272e;
+  --color-hover-dark: #ffdc60;
+  --color-text-description: #99a1aa;
+  --color-borders: #393940;
+}
+
+.layout {
+  background-color: #212121;
+}
+
+.nav__title:hover {
+  color: var(--color-text-body);
+}
+
+.nav__title::before {
+  background-color: var(--color-secondary);
+}
+
+.nav__submenu {
+  background-color: var(--color-banner);
+}
+
+.banner__btn {
+  background-color: var(--color-primary);
+}
+
+.submenu__title:hover {
+  color: var(--color-secondary);
+}
+
+.submenu__title::after {
+  background-color: var(--color-secondary);
+}
+
+.menu__navbar--fixed {
+  background-color: var(--color-banner);
+}
+
+.services__service {
+  background: var(--color-banner);
+  background-color: var(--color-banner);
+}
+
+.service__link {
+  color: var(--color-secondary);
+}
+
+.service__more {
+  color: var(--color-secondary);
+}
+
+.project__content {
+  background-color: var(--color-banner);
+}
+
+.project__link-title:hover {
+  color: var(--color-hover-dark);
+}
+
+.layout__contact::before {
+  background-color: var(--color-banner);
+}
+
+.contact__subtitle {
+  color: var(--color-hover-dark);
+}
+
+.contact__btn {
+  background-color: var(--color-primary);
+}
+
+.fleft__group {
+  background-color: #212121;
+}
+
+.widget__link {
+  color: var(--color-secondary);
+}
+
+.widget__link:hover {
+  color: var(--color-primary);
+}
+
+.flinks__title {
+  color: var(--color-secondary);
+}
+
+.flinks__title:hover {
+  color: var(--color-primary);
+}
