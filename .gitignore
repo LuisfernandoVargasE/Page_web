@@ -1,0 +1,40 @@
+# Configuración y credenciales
+assets/js/groq-config.js
+.env
+.env.local
+*.key
+*.pem
+
+# Dependencias
+node_modules/
+package-lock.json
+yarn.lock
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+npm-debug.log*
+
+# Compilación
+dist/
+build/
+out/
+
+# Temporales
+temp/
+tmp/
+.cache/
+
+
