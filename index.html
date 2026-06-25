@@ -58,8 +58,9 @@
 
           <li class="menu-mobile__item">
             <a class="menu-mobile__link" href="#">Servicios
-              <i class="fa-solid fa-chevron-down menu-mobile__icon"></i>
+              <!--<i class="fa-solid fa-chevron-down menu-mobile__icon"></i>-->
             </a>
+            <!--
             <ul class="menu-mobile__submenu-mobile">
               <li class="submenu-mobile__item">
                 <a href="" class="submenu-mobile__link">Diseño web</a>
@@ -81,13 +82,13 @@
                 <a href="" class="submenu-mobile__link">consultoria</a>
               </li>
             </ul>
-          </li>
+          </li>-->
 
           
 
 
           <li class="menu-mobile__item">
-            <a href="#" class="menu-mobile__link">Equipo</a>
+            <a href="#layout__projects" class="menu-mobile__link">Nosotros</a>
           </li>
 
           <li class="menu-mobile__item">
@@ -128,9 +129,10 @@
             </li>
 
             <li class="nav__item">
-              <a class="nav__title" href="#">Servicios
-                <i class="fa-solid fa-chevron-down nav__icon"></i>
+              <a class="nav__title" href="#layout__services">Servicios
+                <!--<i class="fa-solid fa-chevron-down nav__icon"></i>-->
               </a>
+              <!--
               <ul class="nav__submenu">
                 <li class="submenu__item">
                   <a href="" class="submenu__title">Diseño web</a>
@@ -152,11 +154,11 @@
                   <a href="" class="submenu__title">consultoria</a>
                 </li>
               </ul>
-            </li>
+            </li>-->
 
 
             <li class="nav__item">
-              <a href="#" class="nav__title">Equipo</a>
+              <a href="#layout__projects" class="nav__title">Nosotros</a>
             </li>
 
             <li class="nav__item">
@@ -229,7 +231,7 @@
 
     <!-- Servicios -->
 
-    <section class="layout__services">
+    <section class="layout__services" id="layout__services">
 
       <div class="services__grid">
 
@@ -323,24 +325,88 @@ mejorando la seguridad y el rendimiento progresivamente.
       </ul>
     </section>
 
-    <!-- Proyectos -->
+    <!-- Nosotros -->
 
-    <section class="layout__projects">
+    <section class="layout__projects" id="layout__projects">
       <div class="projects__grid">
 
         <header class="projects__header">
-          <p class="projects__subtitle">Nuestros proyectos</p>
-          <h2 class="projects__title">Algunos de nuestros <br /> mejores trabajos</h2>
+          <p class="projects__subtitle">Nosotros  </p>
+          <h2 class="projects__title">INNOVA TECH <br /> </h2>
         </header>
 
-        <ul class="projects__categories">
+        <!--<ul class="projects__categories">
           <li class="categories__item categories__item--active">Todos los trabajos</li>
           <li class="categories__item">Desarrollo web</li>
           <li class="categories__item">Desarrollo móvil</li>
           <li class="categories__item">Diseño web</li>
-        </ul>
+        </ul>-->
 
         <div class="projects__all">
+          <article class="services__service services__service--top">
+            <div class="service__container-img">
+              <!-- <img src="./assets/img/icon-1.png" alt="Marketing" /> -->  
+            </div>
+            <div class="service__content">
+              <h3 class="service__title">
+                <a href="#" class="service__link">VISION</a>
+              </h3>
+              <p class="service__description">
+                Ser el aliado tecnológico de referencia para empresas que buscan transformar sus ideas en soluciones digitales escalables, seguras y de alto rendimiento. 
+Aspiramos a construir un ecosistema donde la tecnología no sea un gasto, sino una inversión estratégica que impulse el crecimiento sostenible de nuestros  clientes en la era digital.
+
+
+              </p>
+              <!-- <a href="#" class="service__more">Leer más</a> -->
+            </div>
+          </article>
+
+          <article class="services__service services__service--top">
+            <div class="service__container-img">
+              <!-- <img src="./assets/img/icon-1.png" alt="Marketing" /> -->  
+            </div>
+            <div class="service__content">
+              <h3 class="service__title">
+                <a href="#" class="service__link">MISION</a>
+              </h3>
+              <p class="service__description">
+                Traducir problemas complejos del mundo real en arquitecturas de software 
+eficientes y experiencias de usuario memorables. Trabajamos codo a codo con 
+nuestros clientes, entendiendo su negocio en profundidad para entregar 
+soluciones a medida que optimicen procesos, reduzcan costes y abran nuevas 
+líneas de ingresos.
+
+
+              </p>
+              <!-- <a href="#" class="service__more">Leer más</a> -->
+            </div>
+          </article>
+
+          <article class="services__service services__service--top">
+            <div class="service__container-img">
+              <!-- <img src="./assets/img/icon-1.png" alt="Marketing" /> -->  
+            </div>
+            <div class="service__content">
+              <h3 class="service__title">
+                <a href="#" class="service__link">VALORES</a>
+              </h3>
+              <p class="service__description">
+                - Transparencia: Comunicación clara y honesta en cada fase del proyecto. 
+  Nuestros clientes tienen visibilidad total del progreso y los retos.
+- Calidad por encima de la velocidad: Preferimos entregar código robusto y 
+  bien documentado antes que soluciones apresuradas que generen deuda técnica.
+- Innovación con propósito: Adoptamos nuevas tecnologías solo si resuelven un 
+  problema real de nuestro cliente, no por moda.
+- Compromiso con el cliente: El éxito del proyecto no termina con el deploy; 
+  comenzamos una relación de soporte y mejora continua.
+
+
+              </p>
+              <!-- <a href="#" class="service__more">Leer más</a> -->
+            </div>
+          </article>
+
+          <!--
           <article class="projects__project">
             <div class="project__container-img">
               <a href="" class="project__link-img">
@@ -476,6 +542,7 @@ mejorando la seguridad y el rendimiento progresivamente.
 
             </div>
           </article>
+          -->
         </div>
       </div>
 
@@ -842,13 +909,13 @@ mejorando la seguridad y el rendimiento progresivamente.
             </li>-->
 
             <li class="social__item">
-              <a href="#" class="social__link">
+              <a href="https://youtube.com/@luisfernandovargasestrada672?si=EAMXo41oXtaHioE5" class="social__link">
                 <i class="fa-brands fa-youtube  social__img"></i>
               </a>
             </li>
 
             <li class="social__item">
-              <a href="#" class="social__link">
+              <a href="https://www.linkedin.com/in/luis-fernando-vargas-estrada-44a581214" class="social__link">
                 <i class="fa-brands fa-linkedin social__img"></i>
               </a>
             </li>
